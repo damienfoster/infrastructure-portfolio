@@ -4,7 +4,7 @@ title: 'IT Desktop Support Technician (Infrastructure Support)'
 company: 'OhioHealth'
 location: 'Columbus, OH'
 range: 'May 2015 – March 2018'
-
+url: '#'
 ---
 
 - Delivered Tier 2 on-site infrastructure support, maintaining network connectivity for a diverse ecosystem of clinical endpoints, mobile devices, and peripherals.
