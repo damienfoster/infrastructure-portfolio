@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Fortigate & SD-WAN', 'Cisco Meraki & Nexus', 'GCP & AWS (SysOps)', 'Proxmox & Docker', 'Cloudflare & VPNs'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Damien. My passion for networking started at 16, and I have 
+              been immersed in the field ever since. This journey led me through a Bachelor's 
+              degree in Network Security and various industry certifications, turning a 
+              long-term interest into a professional career.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I’m a firm believer in hands-on learning, which is why I maintain an extensive 
+              home lab. My current setup includes a network rack with servers running Proxmox, 
+              hosting Docker containers for Plex and Nextcloud with a 14TB storage array. 
+              Everything is secured behind a pfSense firewall with segmented VLANs and a 
+              configured VPN for remote access.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              To keep the network optimized, I utilize ntopng for deep packet inspection and 
+              NetFlow analysis. My wireless infrastructure consists of UniFi access points 
+              managed by a dedicated controller, giving me full visibility into client 
+              performance and network health.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
