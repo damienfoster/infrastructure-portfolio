@@ -4,7 +4,7 @@ title: 'Senior Desktop Administrator (Infrastructure Focus)'
 company: 'OhioHealth'
 location: 'Columbus, OH'
 range: 'March 2018 – November 2022'
-
+url: '#'
 ---
 
 - Provided Tier 3 infrastructure support, managing endpoint network connectivity for enterprise-wide deployments of IP phones, medical devices, and workstations.
