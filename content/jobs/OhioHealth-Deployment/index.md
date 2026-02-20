@@ -4,7 +4,7 @@ title: 'Infrastructure Device Deployment Specialist'
 company: 'OhioHealth'
 location: 'COlumbus, OH'
 range: 'February 2015 – May 2015'
-
+url: '#'
 ---
 
 - Executed high-volume infrastructure refreshes, managing the end-to-end deployment and network integration of 30+ enterprise endpoints per week.
