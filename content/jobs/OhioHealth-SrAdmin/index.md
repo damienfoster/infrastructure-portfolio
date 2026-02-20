@@ -1,7 +1,7 @@
 ---
 date: '2018-3-18'
 title: 'Senior Desktop Administrator (Infrastructure Focus)'
-company: 'OhioHealth'
+company: 'OhioHealth - Senior Desktop Administrator 03/2018 - 11/2022'
 location: 'Columbus, OH'
 range: 'March 2018 – November 2022'
 url: '#'
