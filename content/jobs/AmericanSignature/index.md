@@ -4,6 +4,7 @@ title: 'Network Engineer'
 company: 'American Signature Inc.'
 location: 'Columbus, OH'
 range: 'Novemeber 2022 - Present'
+url: '#'
 ---
 
 - Lead engineer for a large-scale enterprise network of 15,000+ devices across 250+ locations, managing high-availability infrastructure across on-prem data centers, Azure, and GCP.
