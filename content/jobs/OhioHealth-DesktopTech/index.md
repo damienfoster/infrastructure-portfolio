@@ -1,7 +1,7 @@
 ---
 date: '2015-05-01'
-title: 'IT Desktop Support Technician (Infrastructure Support)'
-company: 'OhioHealth'
+title: 'IT Desktop Support Technician'
+company: 'OhioHealth - Desktop Support Technician'
 location: 'Columbus, OH'
 range: 'May 2015 – March 2018'
 url: '#'
