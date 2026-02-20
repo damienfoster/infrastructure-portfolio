@@ -4,6 +4,7 @@ title: 'IT Help Desk Technician (Tier 1 Support)'
 company: 'OhioHealth'
 location: 'Columbus, OH'
 range: 'August 2014 – February 2015'
+url: '#'
 ---
 
 - Acted as the primary point of contact for enterprise-wide infrastructure issues, resolving Tier 1 network, hardware, and access control requests.
