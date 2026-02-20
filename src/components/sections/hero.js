@@ -63,15 +63,11 @@ const Hero = () => {
   const two = <h2 className="big-heading">Damien Foster.</h2>;
   const three = <h3 className="big-heading">I build and secure network infrastructure.</h3>;
   const four = (
-    <>
       <p>
         I’m a network engineer specializing in designing, deploying and securing mission-critical
         infrastructure. Currently, I’m focused on optimizing network performance and implementing
         robust security protocols for enterprise environments.
-        </a>
-        .
       </p>
-    </>
   );
   const five = (
     <a
