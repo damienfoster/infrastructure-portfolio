@@ -68,8 +68,6 @@ const Hero = () => {
         I’m a network engineer specializing in designing, deploying and securing mission-critical
         infrastructure. Currently, I’m focused on optimizing network performance and implementing
         robust security protocols for enterprise environments.
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
         </a>
         .
       </p>
@@ -78,10 +76,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.linkedin.com/in/damien-foster123"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Get in touch!
     </a>
   );
 
