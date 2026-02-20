@@ -1,7 +1,7 @@
 ---
 date: '2014-08-01'
 title: 'IT Help Desk Technician (Tier 1 Support)'
-company: 'OhioHealth'
+company: 'OhioHealth - IT Help Desk'
 location: 'Columbus, OH'
 range: 'August 2014 – February 2015'
 url: '#'
