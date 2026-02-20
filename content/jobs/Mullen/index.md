@@ -1,12 +1,13 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2014-08-01'
+title: 'IT Help Desk Technician (Tier 1 Support)'
+company: 'OhioHealth'
+location: 'Columbus, OH'
+range: 'August 2014 – February 2015'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Acted as the primary point of contact for enterprise-wide infrastructure issues, resolving Tier 1 network, hardware, and access control requests.
+- Diagnosed and triaged network connectivity issues, Active Directory permissions, and VDI session disruptions using remote management tools.
+- Leveraged enterprise administration suites including **EfficientIP**, **NAC**, and **Microsoft Azure** to troubleshoot endpoint and identity-based network access.
+- Documented technical resolutions within **ServiceNow**, utilizing and refining knowledge base articles to maintain high first-call resolution (FCR) rates.
+- Utilized **SCCM** and **VMware** to manage and troubleshoot virtual and physical infrastructure for thousands of clinicians and support staff.
