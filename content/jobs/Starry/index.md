@@ -1,12 +1,13 @@
 ---
-date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
-location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+date: '2015-02-01'
+title: 'Infrastructure Device Deployment Specialist'
+company: 'OhioHealth'
+location: 'COlumbus, OH'
+range: 'February 2015 – May 2015'
+
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Executed high-volume infrastructure refreshes, managing the end-to-end deployment and network integration of 30+ enterprise endpoints per week.
+- Utilized network discovery tools to audit and identify underutilized or end-of-life hardware, optimizing network asset utilization across the enterprise.
+- Provisioned replacement hardware by configuring network settings and mirroring complex workstation configurations to ensure seamless connectivity and uptime.
+- Validated Layer 1 connectivity and endpoint configurations during hardware swaps, ensuring new equipment adhered to established network security standards.
