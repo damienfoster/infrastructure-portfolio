@@ -1,13 +1,12 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2026-02-20'
+title: 'Network Engineer'
+company: 'American Signature Inc.'
+location: 'Columbus, OH'
+range: 'Novemeber 2022 - Present'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Manage and maintain **Fortigate SD-WAN** solutions and **Cisco Meraki/Nexus** infrastructure across enterprise locations.
+- Configure and troubleshoot **VPNs** and secure remote access protocols to ensure seamless connectivity for internal teams.
+- Administer cloud networking environments within **GCP** and **AWS**, bridging on-premise hardware with cloud scalability.
+- Monitor network performance using **ntopng** and NetFlow analysis to maintain high availability and optimize traffic flow.
