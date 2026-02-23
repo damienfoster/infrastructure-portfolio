@@ -87,10 +87,11 @@ const StyledTabButton = styled.button`
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
-    padding: 0 15px;
-    border-left: 0;
-    border-bottom: 2px solid var(--lightest-navy);
+    min-width: 140px;
+    padding: 12px 15px; /* Added vertical padding for breathing room */
+    height: auto; /* Remove the fixed height constraint */
+    min-height: 80px; /* Force a taller minimum to fit two lines of text */
+    white-space: normal; /* Essential: allows the long titles to wrap */
     text-align: center;
   }
 
