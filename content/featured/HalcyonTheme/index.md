@@ -1,15 +1,20 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Enterprise Edge Security & VLAN Segmentation'
+cover: './demo.png'
+github: 'https://github.com/damienfoster'
+external: '#'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - pfSense
+  - WireGuard VPN
+  - Unifi Networking
+  - ntopng
+  - Traffic Shaping
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+Architected and deployed a custom pfSense security gateway to manage a multi-segmented enterprise-grade home network.
+
+- Established strict **VLAN segmentation** using Unifi hardware to isolate Management, IoT, Guest, and Lab environments, controlled via granular stateful firewall rules.
+- Engineered a high-performance **WireGuard VPN tunnel** for secure, low-latency remote access to internal network resources.
+- Implemented **ntopng** for deep packet inspection and netflow analysis, providing real-time visibility into bandwidth utilization and potential security anomalies.
+- Configured **bandwidth shaping (FQ_CoDel)** to prioritize mission-critical traffic and eliminate bufferbloat during high-utilization periods.
