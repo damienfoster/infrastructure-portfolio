@@ -39,6 +39,7 @@ const StyledTabList = styled.div`
     padding-left: 50px;
     margin-left: -50px;
     margin-bottom: 30px;
+    height: auto; /*<---Add this to allow the bar to expand vertically */
   }
   @media (max-width: 480px) {
     width: calc(100% + 50px);
