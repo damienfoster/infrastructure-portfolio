@@ -78,8 +78,12 @@ const Hero = () => {
       Get in touch!
     </a>
   );
-
-  const items = [one, two, three, four, five];
+  const six = (
+    <StyledLabStatus>
+      <span>✓ Lab Status: Online</span> — Hosted and Protected by Cloudflare | Automated Deployment via GitHub CI/CD
+    </StyledLabStatus>
+  );
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledHeroSection>
@@ -104,3 +108,30 @@ const Hero = () => {
 };
 
 export default Hero;
+const StyledLabStatus = styled.div`
+  display: inline-flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 12px 20px;
+  border: 1px solid var(--green);
+  border-radius: var(--border-radius);
+  background-color: rgba(100, 255, 218, 0.1);
+  color: var(--white);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  line-height: 1.5;
+
+  @media (max-width: 480px) {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
+
+  span {
+    color: var(--green);
+    font-weight: bold;
+    margin-right: 8px;
+    white-space: nowrap;
+  }
+`;
+
+
