@@ -33,23 +33,6 @@ const StyledHeroSection = styled.section`
     }
   }
   
-  .certifications-list {
-    margin-top: 30px;
-    font-family: var(--font-mono);
-    font-size: var(--fz-xs);
-
-    p {
-      color: var(--green);
-      margin-bottom: 15px;
-    }
-
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(200px, 350px));
-      padding: 0;
-      margin: 0;
-      list-style: none;
-
       li {
         position: relative;
         padding-left: 25px;
