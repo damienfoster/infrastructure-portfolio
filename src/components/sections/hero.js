@@ -148,24 +148,8 @@ const Hero = () => {
       <span>✓ Website Status: Online</span> — Hosted and Protected by Cloudflare | Automated Deployment via GitHub CI/CD
     </StyledLabStatus>
   );
-  const seven = (
-    <div className="certifications-list">
-      <p>Certifications:</p>
-      <ul>
-        <li>Cisco Certified Network Associate</li>
-        <li>AWS Certified SysOps Administrator</li>
-        <li>CompTIA Network+</li>
-        <li>CompTIA Security+</li>
-        <li>CompTIA Cloud Essentials</li>
-        <li>CompTIA A+</li>
-        <li>CompTIA Project+</li>
-        <li>Linux Essentials</li>
-        <li>ITIL Foundations</li>
-      </ul>
-    </div>
-  );
   
-  const items = [one, two, three, four, five, six, seven];
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledHeroSection>
