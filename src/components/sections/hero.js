@@ -16,7 +16,17 @@ const StyledHeroSection = styled.section`
     height: auto;
     padding-top: var(--nav-height);
   }
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* This adds the space you are looking for */
+  margin-top: 50px;
 
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
@@ -27,7 +37,7 @@ const StyledHeroSection = styled.section`
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
     }
-  }
+  
 
   h3 {
     margin-top: 5px;
@@ -143,16 +153,4 @@ const StyledLabStatus = styled.div`
   }
 `;
 
-.hero-buttons {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* This adds the space you are looking for */
-  margin-top: 50px;
-
-  @media (max-width: 480px) {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-}
 
