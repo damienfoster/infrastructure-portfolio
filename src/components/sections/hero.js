@@ -30,7 +30,49 @@ const StyledHeroSection = styled.section`
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+    }
   }
+  
+  .certifications-list {
+    margin-top: 30px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+
+    p {
+      color: var(--green);
+      margin-bottom: 15px;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 350px));
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        color: var(--slate);
+
+        &:before {
+          content: '➤';
+          position: absolute;
+          left: 0;
+          color: var(--green);
+          font-size: 14px;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      ul {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  
   h1 {
     margin: 0 0 30px 4px;
     color: var(--green);
@@ -106,7 +148,24 @@ const Hero = () => {
       <span>✓ Website Status: Online</span> — Hosted and Protected by Cloudflare | Automated Deployment via GitHub CI/CD
     </StyledLabStatus>
   );
-  const items = [one, two, three, four, five, six];
+  const seven = (
+    <div className="certifications-list">
+      <p>Certifications:</p>
+      <ul>
+        <li>Cisco Certified Network Associate</li>
+        <li>AWS Certified SysOps Administrator</li>
+        <li>CompTIA Network+</li>
+        <li>CompTIA Security+</li>
+        <li>CompTIA Cloud Essentials</li>
+        <li>CompTIA A+</li>
+        <li>CompTIA Project+</li>
+        <li>Linux Essentials</li>
+        <li>ITIL Foundations</li>
+      </ul>
+    </div>
+  );
+  
+  const items = [one, two, three, four, five, six, seven];
 
   return (
     <StyledHeroSection>
