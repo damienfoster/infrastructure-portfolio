@@ -22,6 +22,10 @@ const StyledHeroSection = styled.section`
   gap: 20px; /* This adds the space you are looking for */
   margin-top: 50px;
 
+  a {
+      ${({ theme }) => theme.mixins.bigButton};
+    }
+
   @media (max-width: 480px) {
     flex-direction: column;
     align-items: flex-start;
