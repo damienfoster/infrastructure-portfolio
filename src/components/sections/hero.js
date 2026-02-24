@@ -70,13 +70,22 @@ const Hero = () => {
       </p>
   );
   const five = (
-    <a
+    <div className="hero-buttons">
+     <a
       className="email-link"
       href="https://www.linkedin.com/in/damien-foster123"
       target="_blank"
       rel="noreferrer">
-      Get in touch!
-    </a>
+      LinkedIn
+     </a>
+     <a
+       className="email-link" 
+       href="/resume.pdf" 
+       target="_blank" 
+       rel="noreferrer">
+       Resume
+      </a>
+     </div>
   );
   const six = (
     <StyledLabStatus>
