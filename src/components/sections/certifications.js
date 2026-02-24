@@ -5,22 +5,24 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledCertSection = styled.section`
-  max-width: 700px;
-  margin: 0 auto 100px;
+  max-width: 900px; /* Increased from 700px to match Experience section width */
+  margin: 0 auto;
+  padding: 100px 0; /* Adds significant vertical breathing room */
 
   .inner {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 300px));
     padding: 0;
-    margin: 20px 0 0;
+    margin: 40px 0 0;
     list-style: none;
 
     li {
       position: relative;
       padding-left: 30px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: var(--fz-md);
+      color: var(--slate);
 
       &:before {
         content: '➤';
@@ -28,14 +30,15 @@ const StyledCertSection = styled.section`
         left: 0;
         color: var(--green);
         font-size: 14px;
-        line-height: 12px;
+        line-height: 20px;
       }
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .inner {
       grid-template-columns: 1fr;
+      gap: 10px;
     }
   }
 `;
