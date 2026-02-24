@@ -80,7 +80,7 @@ const Hero = () => {
   );
   const six = (
     <StyledLabStatus>
-      <span>✓ Lab Status: Online</span> — Hosted and Protected by Cloudflare | Automated Deployment via GitHub CI/CD
+      <span>✓ Website Status: Online</span> — Hosted and Protected by Cloudflare | Automated Deployment via GitHub CI/CD
     </StyledLabStatus>
   );
   const items = [one, two, three, four, five, six];
