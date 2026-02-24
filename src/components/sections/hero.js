@@ -143,4 +143,16 @@ const StyledLabStatus = styled.div`
   }
 `;
 
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* This adds the space you are looking for */
+  margin-top: 50px;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
 
