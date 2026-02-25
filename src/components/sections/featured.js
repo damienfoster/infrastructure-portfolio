@@ -234,10 +234,7 @@ const StyledProject = styled.li`
       }
     }
 
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
-    }
+    
   }
 
   .project-image {
