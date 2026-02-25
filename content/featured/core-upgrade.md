@@ -1,5 +1,5 @@
 ---
-date: '2026-02-25'
+date: '2026-02-24'
 title: 'Enterprise Core Infrastructure Refresh'
 cover: './core-upgrade.png'
 github: ''
