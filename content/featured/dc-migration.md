@@ -1,5 +1,5 @@
 ---
-date: '2026-02-24'
+date: '2026-02-25'
 title: 'Data Center Fabric Transformation'
 cover: './dc-migration.png'
 github: ''
