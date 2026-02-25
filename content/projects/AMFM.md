@@ -1,14 +1,20 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+date: '1'
+title: 'Enterprise Edge Security & VLAN Segmentation'
+cover: './demo.png'
+github: 'https://github.com/damienfoster'
+external: '#'
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
-showInProjects: true
+  - pfSense
+  - WireGuard VPN
+  - Unifi Networking
+  - ntopng
+  - Traffic Shaping
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+Architected and deployed a custom pfSense security gateway to manage a multi-segmented enterprise-grade home network.
+
+- Established strict **VLAN segmentation** using Unifi hardware to isolate Management, IoT, Guest, and Lab environments, controlled via granular stateful firewall rules.
+- Engineered a high-performance **WireGuard VPN tunnel** for secure, low-latency remote access to internal network resources.
+- Implemented **ntopng** for deep packet inspection and netflow analysis, providing real-time visibility into bandwidth utilization and potential security anomalies.
+- Configured **bandwidth shaping (FQ_CoDel)** to prioritize mission-critical traffic and eliminate bufferbloat during high-utilization periods.
