@@ -11,7 +11,7 @@ const StyledCertSection = styled.section`
 
   .inner {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 300px));
+    grid-template-columns: repeat(2, minmax(200px, 420px));
     padding: 0;
     margin: 40px 0 0;
     list-style: none;
