@@ -1,7 +1,7 @@
 ---
 date: '2026-02-20'
 title: 'Network Engineer'
-company: 'American Signature Inc.'
+company: 'American Signature - Network Engineer'
 location: 'Columbus, OH'
 range: 'Novemeber 2022 - Present'
 url: '#'
