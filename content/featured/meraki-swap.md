@@ -1,5 +1,5 @@
 ---
-date: '2026-02-25'
+date: '2026-02-23'
 title: 'Campus Edge & SD-WAN Modernization'
 cover: './meraki-swap.png'
 github: ''
