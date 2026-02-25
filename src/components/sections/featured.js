@@ -62,7 +62,7 @@ const StyledProject = styled.li`
     }
 
     .project-image {
-      grid-column: 1 / 8;
+      grid-column: 1 / 7;
       @media (max-width: 768px) { grid-column: 1 / -1; }
     }
   }
