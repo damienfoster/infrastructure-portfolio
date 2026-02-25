@@ -9,6 +9,22 @@ const StyledCertSection = styled.section`
   margin: 0 auto;
   padding: 100px 0; /* Adds significant vertical breathing room */
 
+ .degree-info {
+    margin-bottom: 40px;
+    
+    h3 {
+      color: var(--white);
+      font-size: var(--fz-xl);
+      margin-bottom: 5px;
+    }
+    
+    p {
+      color: var(--green);
+      font-family: var(--font-mono);
+      font-size: var(--fz-md);
+    }
+  }
+
   .inner {
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 420px));
@@ -54,8 +70,14 @@ const Certifications = () => {
 
   return (
     <StyledCertSection id="certifications" ref={revealContainer}>
-      <h2 className="numbered-heading">Certifications</h2>
-      <ul className="inner">
+      <h2 className="numbered-heading">Education & Certifications</h2>
+
+    <div className="degree-info">
+      <h3>Bachelor of Science in Network Operations and Security</h3>
+      <p>[Western Governors University] — [2022]</p>
+    </div>
+    
+    <ul className="inner">
         <li>Cisco Certified Network Associate</li>
         <li>AWS Certified SysOps Administrator</li>
         <li>CompTIA Network+</li>
