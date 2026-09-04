@@ -1,7 +1,7 @@
 ---
 date: '2026-09-20'
 title: 'Network Engineer'
-company: 'Bleckmann - Network Engineer'
+company: 'Bleckmann'
 location: 'Columbus, OH'
 range: 'April 2026 - Present'
 url: '#'
