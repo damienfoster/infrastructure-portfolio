@@ -1,7 +1,7 @@
 ---
 date: '2015-02-01'
 title: 'Device Deployment Specialist'
-company: 'OhioHealth - Device Deployment'
+company: 'OhioHealth'
 location: 'COlumbus, OH'
 range: 'February 2015 – May 2015'
 url: '#'
